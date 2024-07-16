@@ -55,7 +55,7 @@ export const Checkoutform = ({ orderId }) => {  // Destructure orderId from prop
       elements,
       confirmParams: {
         // Construct the return_url with the orderId parameter
-        return_url: `http://localhost:3000/success?orderId=${orderId}`,
+        return_url: `https://gaminghaven.onrender.com/success?orderId=${orderId}`,
       },
     });
 
