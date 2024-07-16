@@ -158,15 +158,8 @@ export default function NestedList() {
           </Link>
         </ListItemButton>
         <Divider color="gray"/>
-        <ListItemButton>
-          <ListItemIcon>
-            <InfoIcon />
-          </ListItemIcon>
-          <Link to={"/about"}  style={{textDecoration:"none" , color: 'white'}} >
-          <ListItemText primary="Support" />
-          </Link>
-        </ListItemButton>
-        <Divider color="gray"/>
+      
+       
        
       </List>
     </Box>
