@@ -109,12 +109,7 @@ export default function AllReviewCard(props) {
                 </CardContent>
               </Collapse>
               <CardActions disableSpacing>
-                <IconButton aria-label="delete-review">
-                  <DeleteForeverSharpIcon color="error" />
-                </IconButton>
-                <IconButton aria-label="share">
-                  <EditIcon color="primary" />
-                </IconButton>
+               
               </CardActions>
             </Card>
           ))}
